@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Content/style.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.6.4.js"></script>
+    <script src="Scripts/jquery.signalR-2.0.2.js"></script>
+    <script src="/signalr/js"></script>
+    <script src="Scripts/app.js"></script>
+</head>
+<body>
+    <div>
+        <label>Introduce tu nombre:</label>
+    </div>
+    <div>
+        <input type="text" id="nombre" value="" />
+        <input type="button" id="connect" value="connect" />
+    </div>
+    <span id="chipType"></span>
+    <span id="winner"></span>
+    <table id="board">
+        <tr>
+            <td id="cell00" row="0" col="0" class="cell"></td>
+            <td id="cell01" row="0" col="1" class="cell"></td>
+            <td id="cell02" row="0" col="2" class="cell"></td>
+        </tr>
+        <tr>
+            <td id="cell10" row="1" col="0" class="cell"></td>
+            <td id="cell11" row="1" col="1" class="cell"></td>
+            <td id="cell12" row="1" col="2" class="cell"></td>
+        </tr>
+        <tr>
+            <td id="cell20" row="2" col="0" class="cell"></td>
+            <td id="cell21" row="2" col="1" class="cell"></td>
+            <td id="cell22" row="2" col="2" class="cell"></td>
+        </tr>
+    </table>
+</body>
+</html>
